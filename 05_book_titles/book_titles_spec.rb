@@ -50,8 +50,8 @@ describe Book do
       end
 
       specify 'conjunctions' do
-        @book.title = "war and peace"
-        expect(@book.title).to eq("War and Peace")
+        @book.title = "war peace"
+        expect(@book.title).to eq("War Peace")
       end
 
       specify 'prepositions' do
